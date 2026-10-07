@@ -72,3 +72,4 @@ At the top of `3d_Cube.js`:
 - The cleanup function is exposed as `window.destroyCube3D`, which the close script calls to release the WebGL context. Even without the close script, the code detects the rectangle disappearing when the view changes and cleans up on its own.
 - If the same page runs other 3D scripts, give each one a different `window` cleanup function name so they don't clean up each other.
 # fuxa-3d-demo
+# fuxa-3d-demo
