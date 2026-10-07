@@ -11,7 +11,7 @@
 // 1. Settings
 // ==========================================
 const PLACEHOLDER_ID = 'cube_3d'; // Name (or id) of the placeholder rectangle in FUXA
-const SHOW_AXES = false;          // Show the XYZ arrows (when hidden, they can still be dragged at the same spot)
+const SHOW_AXES = true;           // Show the XYZ arrows (when hidden, they can still be dragged at the same spot)
 
 // Helper: load an external script (skipped if THREE is already loaded or the script tag exists)
 const loadScript = (src) => new Promise((resolve, reject) => {

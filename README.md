@@ -64,7 +64,7 @@ At the top of `3d_Cube.js`:
 | Constant | Default | Description |
 |---|---|---|
 | `PLACEHOLDER_ID` | `'cube_3d'` | Name of the placeholder rectangle; must match the name in FUXA |
-| `SHOW_AXES` | `false` | Show the XYZ arrows; when hidden, the arrow positions can still be dragged |
+| `SHOW_AXES` | `true` | Show the XYZ arrows; when hidden, the arrow positions can still be dragged |
 
 ## Notes
 
